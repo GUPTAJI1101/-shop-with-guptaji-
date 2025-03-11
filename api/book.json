@@ -1,0 +1,52 @@
+[
+    {
+        "id":32,
+        "name": "SRIMAD BHAGAVATAM",
+        "category": "book",
+        "brand": "ISKRON",
+        "price": 100.25,
+        "stock": 4688,
+        "description": "srimad bhagavatam geeta written valmikiji, and print by iskron",
+        "image":"./images/b 1.jpeg"
+    },  
+     {
+        "id":33,
+        "name": "KRISHAN BHAGWATAM",
+        "category": "book",
+        "brand": "ISKRON",
+        "price": 70.25,
+        "stock": 688,
+        "description": "krisham bhagwatam written valmikiji, and print by iskron",
+        "image":"./images/b 2.jpeg"
+    },
+    {
+        "id":35,
+        "name": "KRSNA CONSCIOUSNESS",
+        "category": "book",
+        "brand": "ISKRON",
+        "price": 121.25,
+        "stock": 488,
+        "description": "krsna consciousness  print by iskron",
+        "image":"./images/b 3.jpeg"
+    },
+    {
+        "id":36,
+        "name": "THE NECTOR OF INSTRUCTION",
+        "category": "book",
+        "brand": "ISKRON",
+        "price": 50.25,
+        "stock": 688,
+        "description": "THE NECTOR OF INSTRUCTION print by iskron",
+        "image":"./images/b 4.jpeg"
+    },
+    {
+        "id":37,
+        "name": "MAHABHARATA",
+        "category": "book",
+        "brand": "ISKRON",
+        "price": 50.25,
+        "stock": 688,
+        "description": "MAHABHARATA with true incidents , print by iskron",
+        "image":"./images/b 5.jpeg"
+    }
+]

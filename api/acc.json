@@ -1,0 +1,94 @@
+[
+    {
+        "id":23,
+        "name": "riding jacket",
+        "category": "jacket",
+        "brand": "sttelbird",
+        "price": 1995.25,
+        "stock": 664,
+        "description": "riding jacket with full gears and protection",
+        "image":"./images/a 1.jpeg"
+       
+    },
+    {
+        "id":24,
+        "name": "bike go pro",
+        "category": "camera",
+        "brand": "go-pro",
+        "price": 959.65,
+        "stock": 1684,
+        "description": "this is go pro camera used in bike for shotting bike travel ",
+        "image": "./images/a 2.jpeg"
+    },
+    {
+        "id":25,
+        "name": "splender",
+        "category": "bike",
+        "brand": "hero",
+        "price": 95246.52,
+        "stock": 56,
+        "description": "BLACK splendor brand new order online ",
+        "image": " ./images/a 3.jpeg"
+    },
+    {
+        "id":26,
+        "name": "hunter",
+        "category": "bike",
+        "brand": "royal enfield",
+        "price": 254655.59,
+        "stock": 53,
+        "description": "tradional royal enfield hunter. brand new.",
+        "image":  "./images/a 4.jpeg"
+    },
+    {
+        "id":27,
+        "name": "java",
+        "category": "bike",
+        "brand": "java",
+        "price": 265629.46,
+        "stock": 46,
+        "description": "tradional java bullet with powerful engine, order online",
+        "image": "./images/a 5.jpeg"
+    },
+    {
+        "id":28,
+        "name": "modefied hunter",
+        "category": "bike",
+        "brand": "royal enfield",
+        "price": 276685.65,
+        "stock": 36,
+        "description": "modiefied hunter from royal enfield. brand new",
+        "image": "./images/a 6.jpeg"
+    },
+    {
+        "id":29,
+        "name": "single seater",
+        "category": "bike",
+        "brand": "java",
+        "price": 35683.57,
+        "stock": 35,
+        "description": "tradional java single seater with powerful engine, order online",
+        "image": "./images/a 7.jpeg"
+    },
+    {
+        "id":30,
+        "name": "classic",
+        "category": "bike",
+        "brand": "royal enfield",
+        "price": 254550.25,
+        "stock": 35,
+        "description":"tradional royal enfield hunter. brand new.",
+        "image": "./images/a 8.jpeg" 
+    },
+    {
+        "id":31,
+        "name": "modiefied classic",
+        "category": "bike",
+        "brand": "royal enfield",
+        "price": 265450.25,
+        "stock": 38,
+        "description": "modiefied classic from royal enfield. brand new",
+        "image": "./images/a 9.jpeg"
+    }
+
+]

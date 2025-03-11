@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Shop with Guptaji</title>
+</head>
+<body>
+
+  <section class="bottom-navbar">
+    <nav class="nav">
+        <div class="hamburger" id="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>   
+        <div class="left-elem">
+            <ul class="left-ul" id="nav-menu">
+                <li><a href="./home.html" class="nav-link">  <i class="fa-solid fa-home"></i>Home</a></li>
+                <li><a href="./search.html" class="nav-link">  <i class="fa-brands fa-searchengin"></i>Search</a></li>
+                <li><a href="./cart.html" class="nav-link"> <i class="fa-solid fa-cart-shopping"></i>Cart</a></li>
+                <li><a href="./index.html" class="nav-link"><i class="fa-solid fa-outdent"></i>LOG-OUT</a></li>
+             
+            </ul>
+        </div>
+        <div class="nav-logo">
+          <a href="./home.html">
+              <img src="./images/Shop with GUPTAJI (1).png" alt="nav-logo">
+          </a>
+      </div>
+      <a href="search.html" class="nav-link"><i class="fa-brands fa-searchengin"></i></a>
+      <a href="./cart.html" class="nav-link" id="cart-value" >  <i class="fa-solid fa-cart-shopping"> 0</i></a>
+    </nav>
+  </section>
+
+  <!-- ========== Start main Section ========== -->
+      <section class="main-section" >
+        <template id="top-template" >
+        <div class="container top-scrollable-container ">
+            <button class="scroll-btn left-scroll-bttn" type="button" >⬅️</button>
+            <div id="imgContainer">
+                <img class="modal-img" src="" alt="">
+                <img class="modal-img1" src="" alt="">
+                <img class="modal-img2" src="" alt="">
+                <img class="modal-img3" src="" alt="">
+            </div>
+            <button class="scroll-btn right-scroll-bttn" type="button" >➡️</button>
+         </div>
+         <div  class="top-cards" id="topCardValue" >
+            <article class="information[card]" >
+              <span class="top-span" ></span>
+              <h1 class="modal-name" ></h1>
+              
+              <div class="price-element">
+                <p class="modal-price" ></p>
+                <p class="modalActual-price" ></p>
+              </div>
+              <h2 class="modal-des"></h2>
+              <div class="stockElement">
+                <p class="stockPropety" >Stock Available :-</p> 
+                <p class="modal-stock" ></p>
+              </div>
+              <div class="topquantityElement">
+                <p class="men-quantiy" >Quantity{item}</p>
+                <div class="plusMinus">
+                <button class="cartIncrement">+</button>
+                <p class="mensQuantity" >1</p>
+                <button class="cartDecrement">-</button>
+                </div>
+              </div>
+              <button class="add-to-cart-button" id="topcartbtn" >
+                <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+              </button>
+            </article>
+         </div>
+         </template>
+      </section>
+  <!-- ========== End main Section ========== -->
+
+    <!-- ========== Footer Section ========== -->
+    <footer class="footer-section">
+        <div class="fancy-underline footerlisttitle"><h1 class="hp" >POPULAR SEARCHES</h1></div>
+        
+        <p class="ph" ><strong>Suits:</strong> Elite Attire, Dapper Drip, Sharp & Sleek, The Gentleman’s Choice, Suit Up Hub.</p>
+        <p class="ph" ><strong>Bikes:</strong> Velocity Wheels, RideXtreme, Turbo Trails, Rev & Ride, Moto Haven.</p>
+        <p class="ph" ><strong>Men's Underwear:</strong> Comfort Zone, InnerFit, Bold Basics, Ultimate Support, Core Essentials.</p>
+      
+         <h1 class="hh" >COMPANY</h1>
+          <p class="pp" >About us <br> Privacy Policy <br> Terms & Condition <br> Payments & Returns <br> Printing Terms & Cancellation Policy </p>
+         
+         <h1 class="hh" >CONTACT US</h1>
+         <p class="pp" >About us <br> Privacy Policy <br> Terms & Condition <br> Payments & Returns <br> Printing Terms & Cancellation Policy </p>
+      
+         <h1 class="hh" >COMPANY</h1>
+         <p class="pp" >About us <br> Privacy Policy <br> Terms & Condition <br> Payments & Returns <br> Printing Terms & Cancellation Policy </p>
+      
+         <h1 class="hh" >COMPANY</h1>
+         <p class="pp" >About us <br> Privacy Policy <br> Terms & Condition <br> Payments & Returns <br> Printing Terms & Cancellation Policy </p>
+      
+      
+         <br>
+         <br>
+         <p>GUPTAJI IS THE DEVELOPER AND OWNER OF THIS WEBSITE.</p>
+      </footer>
+    <!-- ========== End Footer Section ========== -->
+
+    <script type="module" src="./product.js" ></script>   
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Shop with Guptaji</title>
+</head>
+<body>
+
+    <section class="bottom-navbar">
+        <nav class="nav">
+            <div class="hamburger" id="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>   
+            <div class="left-elem">
+                <ul class="left-ul" id="nav-menu">
+                    <li><a href="./home.html" class="nav-link">  <i class="fa-solid fa-home"></i>Home</a></li>
+                    <li><a href="./search.html" class="nav-link">  <i class="fa-brands fa-searchengin"></i>Search</a></li>
+                    <li><a href="./cart.html" class="nav-link"> <i class="fa-solid fa-cart-shopping"></i>Cart</a></li>
+                    <li><a href="./index.html" class="nav-link"><i class="fa-solid fa-outdent"></i>LOG-OUT</a></li>
+                 
+                </ul>
+            </div>
+            <div class="nav-logo">
+              <a href="./home.html">
+                  <img src="./images/Shop with GUPTAJI (1).png" alt="nav-logo">
+              </a>
+          </div>
+          <a href="search.html" class="nav-link"><i class="fa-brands fa-searchengin"></i></a>
+          <a href="./cart.html" class="nav-link" id="cart-value" >  <i class="fa-solid fa-cart-shopping"> 0</i></a>
+        </nav>
+      </section>
+
+      <!-- ========== Start main Section ========== -->
+         <section class="main-section">
+          <div class="s-c">
+           <div class="search-bar">
+            <input type="search" id="searchInput" class="search" placeholder="" >
+            <button id="submitCoupon">Submit</button>
+           </div>
+           <div id="defaultContent">
+            <p>Start typing to search...</p>
+          </div>
+        </div>
+           <div class="search-container"></div>
+
+           <template id="search-temp">
+            <div  class="cards-search" id="searchCardValue" >
+                <article class="information[card]" >
+                  <span class="men-span" ></span>
+                  <div class="image-container">
+                    <img class="men-img" src="" alt="">
+                  </div>
+                  <h2 class="men-name" ></h2>
+                  <div class="price-element">
+                    <p class="men-price" ></p>
+                    <p class="menActual-price" ></p>
+                  </div>
+                  <p class="men-des"></p>
+                  <div class="stockElement">
+                    <p class="stockPropety" >Stock Available :-</p>
+                    <p class="men-stock" ></p>
+                  </div>
+                  <div class="quantityElement">
+                    <p class="men-quantiy" >Quantity{item}</p>
+                    <div class="plusMinus">
+                    <button class="cartIncrement">+</button>
+                    <p class="mensQuantity" >1</p>
+                    <button class="cartDecrement">-</button>
+                    </div>
+                  </div>
+                </span>
+                
+                  <button class="add-to-cart-button">
+                    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+                  </button>
+                </article>
+              </div>
+           </template>
+         </section>
+      <!-- ========== End main Section ========== -->
+
+    <!-- ========== Footer Section ========== -->
+    <footer class="footer-section">
+        <div class="fancy-underline footerlisttitle"><h1 class="hp" >POPULAR SEARCHES</h1></div>
+        
+        <p class="ph" ><strong>Suits:</strong> Elite Attire, Dapper Drip, Sharp & Sleek, The Gentleman’s Choice, Suit Up Hub.</p>
+        <p class="ph" ><strong>Bikes:</strong> Velocity Wheels, RideXtreme, Turbo Trails, Rev & Ride, Moto Haven.</p>
+        <p class="ph" ><strong>Men's Underwear:</strong> Comfort Zone, InnerFit, Bold Basics, Ultimate Support, Core Essentials.</p>
+      
+         <h1 class="hh" >COMPANY</h1>
+          <p class="pp" >About us <br> Privacy Policy <br> Terms & Condition <br> Payments & Returns <br> Printing Terms & Cancellation Policy </p>
+         
+         <h1 class="hh" >CONTACT US</h1>
+         <p class="pp" >About us <br> Privacy Policy <br> Terms & Condition <br> Payments & Returns <br> Printing Terms & Cancellation Policy </p>
+      
+         <h1 class="hh" >COMPANY</h1>
+         <p class="pp" >About us <br> Privacy Policy <br> Terms & Condition <br> Payments & Returns <br> Printing Terms & Cancellation Policy </p>
+      
+         <h1 class="hh" >COMPANY</h1>
+         <p class="pp" >About us <br> Privacy Policy <br> Terms & Condition <br> Payments & Returns <br> Printing Terms & Cancellation Policy </p>
+      
+      
+         <br>
+         <br>
+         <p>GUPTAJI IS THE DEVELOPER AND OWNER OF THIS WEBSITE.</p>
+      </footer>
+    <!-- ========== End Footer Section ========== -->
+
+    <script type="module" src="./search.js" ></script>   
+</body>
+</html>

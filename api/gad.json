@@ -1,0 +1,106 @@
+[
+    {
+        "id":38,
+        "name": "IDEAPAD",
+        "category": "laptop",
+        "brand": "lenovo",
+        "price": 45597.25,
+        "stock": 4688,
+        "description": "the new ideapad lanuch by lenovo, with ryzen proccesor with 3 years warranty",
+        "image":"./images/gl 1.jpeg"
+    },  
+     {
+        "id":39,
+        "name": "GTB00K",
+        "category": "laptop",
+        "brand": "INFINIX",
+        "price": 55470.25,
+        "stock": 688,
+        "description":  "the new GTB00K lanuch by infinix, with ryzen proccesor with 3 years warranty",
+        "image":"./images/gl 2.jpeg"
+    },
+    {
+        "id":40,
+        "name": "GTB00K1",
+        "category": "laptop",
+        "brand": "INFINIX",
+        "price": 56121.25,
+        "stock": 488,
+        "description": "the new GTB00K1 lanuch by infinix, with ryzen proccesor with 3 years warranty",
+        "image":"./images/gl 3.jpeg"
+    },
+    {
+        "id":41,
+        "name": "lenovo",
+        "category": "laptop",
+        "brand": "lenovo",
+        "price": 53550.25,
+        "stock": 688,
+        "description":  " lenovo, with ryzen proccesor with 3 years warranty",
+        "image":"./images/gl 4.jpeg"
+    },
+    {
+        "id":42,
+        "name": "PREDATOR",
+        "category": "laptop",
+        "brand": "ASUS",
+        "price": 78450.25,
+        "stock": 6885,
+        "description": "PREDATOR laptop lauch by ASUS with 3 years warranty",
+        "image":"./images/gl 5.jpeg"
+    },
+    {
+        "id":43,
+        "name": "IPHONE 13",
+        "category": "mobile",
+        "brand": "APPLE",
+        "price": 48450.25,
+        "stock": 68885,
+        "description": "I-phone 13 with 1 year warranty",
+        "image":"./images/gm 1.jpeg"
+    },
+    {
+        "id":44,
+        "name": "IPHONE 15",
+        "category": "mobile",
+        "brand": "APPLE",
+        "price": 68450.25,
+        "stock": 685,
+        "description": "I-phone 15 with 1 year warranty",
+        "image":"./images/gm 2.jpeg"
+    },
+    {
+        "id":45,
+        "name": "IPHONE 16",
+        "category": "mobile",
+        "brand": "APPLE",
+        "price": 108450.25,
+        "stock": 4965,
+        "description": "I-phone 16 with 1 year warranty",
+        "image":"./images/gm 3.jpeg"
+    },
+    {
+        "id":46,
+        "name": "IPHONE 15 pro",
+        "category": "mobile",
+        "brand": "APPLE",
+        "price": 78450.25,
+        "stock": 4965,
+        "description": "I-phone 15 pro with 1 year warranty",
+        "image":"./images/gm 4.jpeg"
+    },
+    {
+        "id":47,
+        "name": "IPHONE 16 pro",
+        "category": "mobile",
+        "brand": "APPLE",
+        "price": 128450.25,
+        "stock": 4965,
+        "description": "I-phone 16 pro with 1 year warranty",
+        "image":"./images/gm 5.jpeg" 
+    }
+]
+
+
+
+

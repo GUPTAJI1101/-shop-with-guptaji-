@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Shop with Guptaji</title>
+</head>
+<body>
+
+    <section class="bottom-navbar">
+        <nav class="nav">
+            <div class="hamburger" id="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>   
+            <div class="left-elem">
+                <ul class="left-ul" id="nav-menu">
+                    <li><a href="./home.html" class="nav-link">  <i class="fa-solid fa-home"></i>Home</a></li>
+                    <li><a href="./search.html" class="nav-link">  <i class="fa-brands fa-searchengin"></i>Search</a></li>
+                    <li><a href="./cart.html" class="nav-link"> <i class="fa-solid fa-cart-shopping"></i>Cart</a></li>
+                    <li><a href="./index.html" class="nav-link"><i class="fa-solid fa-outdent"></i>LOG-OUT</a></li>
+                 
+                </ul>
+            </div>
+            <div class="nav-logo">
+              <a href="./home.html">
+                  <img src="./images/Shop with GUPTAJI (1).png" alt="nav-logo">
+              </a>
+          </div>
+          <a href="search.html" class="nav-link"><i class="fa-brands fa-searchengin"></i></a>
+          <a href="./cart.html" class="nav-link" id="cart-value" >  <i class="fa-solid fa-cart-shopping"> 0</i></a>
+        </nav>
+      </section>
+
+      <!-- ========== Start header Section ========== -->
+       <section class="cart" >
+       <div class="container">
+        <h1 class="carth1">Shopping Cart</h1>
+       </div>
+
+       <div class="cart-line grid grid-two--cols ">
+        <h2 class="cart-p" >PRODUCT</h2>
+        <h2 class="cart-q" >QUANTITY</h2>
+    </div>
+        <div class="cart-cards"></div>
+        <template class="cart-temp">
+            <div  class="cart-card" id="cartCardValue"  data-id="">
+                <article class="information[card] " >
+                    <div class="cart-container grid grid-three--cols ">
+                  
+                <div class="cart-img">
+                    <span class="cart-span" ></span>
+                    <img class="cartImg" src="" alt="">
+                </div> 
+                <div class="cart-detail">
+                    <h2 class="cart-name"></h2>
+                    <p class="cart-price"></p>
+                </div>
+                <div class="cartQuantityDropdown">
+                    <label for="quantity">Qty:</label>
+                    <select class="cartQuantitySelect" data-id="PRODUCT_ID">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        
+                    </select>
+                </div>
+                <button class="cacartremove">REMOVE</button>
+                
+                </article>
+            </div>
+        </template>
+        <div class="cart-containerrem">
+            <button class="cacartremoveall">REMOVE-ALL</button>
+        </div>
+        
+    </section>
+      <!-- ========== End header Section ========== -->
+      
+      <!-- ========== Start price total Section ========== -->
+      <section class="priceTotal" >
+        <h2 class="priceh2" >CART TOTALS</h2> 
+         <div class="total">
+            <div class="subtotal grid grid-two--cols ">
+                <p class="cartp" >SUBTOTAL</p>
+                <p class="productSubTotal" >0</p>
+            </div>
+            <hr>
+            <div class="subShip grid grid-two--cols ">
+                <p class="cartp">SHIPPING</p>
+                <p class="productShipping" ></p>
+            </div>
+            <hr>
+            <div class="subTax grid grid-two--cols ">
+                <p class="cartp" >TAX</p>
+                <p class="productTax" >0</p>
+            </div>
+           
+            <div class="subTota grid grid-two--cols ">
+                <p class="cartp" >TOTAL</p>
+                <p class="productTotal" >0</p>
+            </div>
+         </div>
+      </section>
+      <section class="coupon-section">
+        <input type="text" id="couponInput" placeholder="Enter Coupon Code">
+        <button id="applyCoupon">Apply</button>
+        <p id="couponMessage"></p>
+    </section>
+    
+      <!-- ========== End price total Section ========== -->
+
+    <!-- ========== Footer Section ========== -->
+    <footer class="footer-section">
+        <div class="fancy-underline footerlisttitle"><h1 class="hp" >POPULAR SEARCHES</h1></div>
+        
+        <p class="ph" ><strong>Suits:</strong> Elite Attire, Dapper Drip, Sharp & Sleek, The Gentleman’s Choice, Suit Up Hub.</p>
+        <p class="ph" ><strong>Bikes:</strong> Velocity Wheels, RideXtreme, Turbo Trails, Rev & Ride, Moto Haven.</p>
+        <p class="ph" ><strong>Men's Underwear:</strong> Comfort Zone, InnerFit, Bold Basics, Ultimate Support, Core Essentials.</p>
+      
+         <h1 class="hh" >COMPANY</h1>
+          <p class="pp" >About us <br> Privacy Policy <br> Terms & Condition <br> Payments & Returns <br> Printing Terms & Cancellation Policy </p>
+         
+         <h1 class="hh" >CONTACT US</h1>
+         <p class="pp" >About us <br> Privacy Policy <br> Terms & Condition <br> Payments & Returns <br> Printing Terms & Cancellation Policy </p>
+      
+         <h1 class="hh" >COMPANY</h1>
+         <p class="pp" >About us <br> Privacy Policy <br> Terms & Condition <br> Payments & Returns <br> Printing Terms & Cancellation Policy </p>
+      
+         <h1 class="hh" >COMPANY</h1>
+         <p class="pp" >About us <br> Privacy Policy <br> Terms & Condition <br> Payments & Returns <br> Printing Terms & Cancellation Policy </p>
+      
+      
+         <br>
+         <br>
+         <p>GUPTAJI IS THE DEVELOPER AND OWNER OF THIS WEBSITE.</p>
+      </footer>
+    <!-- ========== End Footer Section ========== -->
+
+    <script type="module" src="./cart.js" ></script>   
+</body>
+</html>

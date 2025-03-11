@@ -1,0 +1,102 @@
+[
+    {
+        "id":1,
+        "name": "JOCKEY",
+        "category": "underwear",
+        "brand": "JOCKEY",
+        "price": 99.25,
+        "stock": 864,
+        "description": "original jockey underwear. NO RETURNS ALLOWED",
+        "image": "./images/m 1.1.jpeg"
+    },
+    {
+        "id":2,
+        "name": "MOCKEY",
+        "category": "underwear",
+        "brand": "MOCKEY",
+        "price": 79.65,
+        "stock": 1864,
+        "description": "original mockey underwear. NO RETURNS ALLOWED",
+        "image": "./images/m 1.jpeg"
+    },
+    {
+        "id":3,
+        "name": "LEVIS",
+        "category": "underwear",
+        "brand": "LEVIS",
+        "price": 86.52,
+        "stock": 5756,
+        "description": "original LEVIS underwear. NO RETURNS ALLOWED",
+        "image": "./images/m 2.1.jpeg"
+    },
+    {
+        "id":4,
+        "name": "MEVIS",
+        "category": "underwear",
+        "brand": "MEVIS",
+        "price": 65.59,
+        "stock": 6653,
+        "description": "original MEVIS underwear. NO RETURNS ALLOWED",
+        "image": "./images/m 2.jpeg"
+    },
+    {
+        "id":5,
+        "name": "X",
+        "category": "underwear",
+        "brand": "XRO",
+        "price": 29.46,
+        "stock": 466,
+        "description": "original X underwear. NO RETURNS ALLOWED",
+        "image": "./images/m 3.1.jpeg"
+    },
+    {
+        "id":6,
+        "name": "Y",
+        "category": "underwear",
+        "brand": "YRO",
+        "price": 25.65,
+        "stock": 3606,
+        "description": "original Y underwear. NO RETURNS ALLOWED",
+        "image": "./images/m 3.jpeg"
+    },
+    {
+        "id":7,
+        "name": "sando",
+        "category": "sando",
+        "brand": "rupa",
+        "price": 63.57,
+        "stock": 5335,
+        "description": "original rupa sando. NO RETURNS ALLOWED",
+        "image": "./images/m 4.1.jpeg"
+    },
+    {
+        "id":8,
+        "name": "sando",
+        "category": "sando",
+        "brand": "rupa",
+        "price": 150.25,
+        "stock": 335,
+        "description": "pack of two. original rupa sando. NO RETURNS ALLOWED",
+        "image": "./images/m 4.jpeg"
+    },
+    {
+        "id":9,
+        "name": "sando",
+        "category": "sando",
+        "brand": "rupa",
+        "price": 149.25,
+        "stock": 253,
+        "description": "pack of two. original rupa sando. NO RETURNS ALLOWED",
+        "image": "./images/m 5.1.jpeg"
+    },
+    {
+        "id":10,
+        "name": "sando",
+        "category": "sando",
+        "brand": "rupa",
+        "price": 139.85,
+        "stock": 253,
+        "description": "pack of two. original rupa sando. NO RETURNS ALLOWED",
+        "image": "./images/m 5.jpeg"
+    }
+]

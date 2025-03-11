@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Jaro:opsz@6..72&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./style.css">
+    <title>shop with guptaji</title>
+</head>
+<body>
+<!-- ========== Start bottom navbar Section ========== -->
+<section class="bottom-navbar">
+  <nav class="nav">
+      <div class="hamburger" id="hamburger">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+      </div>   
+      
+      <div class="left-elem">
+          <ul class="left-ul" id="nav-menu">
+              <li><a href="./home.html" class="nav-link">  <i class="fa-solid fa-home"></i>Home</a></li>
+              <li><a href="./search.html" class="nav-link">  <i class="fa-brands fa-searchengin"></i>Search</a></li>
+              <li><a href="./cart.html" class="nav-link">  <i class="fa-solid fa-cart-shopping"></i>Cart</a></li>
+              <li><a href="./index.html" class="nav-link"> <i class="fa-solid fa-outdent"></i>LOG-OUT</a></li>
+          </ul>
+      </div>
+
+      <div class="nav-center">
+        <a href="./home.html" class="nav-logo">
+            <img src="./images/Shop with GUPTAJI (1).png" alt="nav-logo">
+        </a>
+      </div>
+
+      <div class="nav-right">
+        <a href="search.html" class="nav-link" id="search-id">
+          <i class="fa-brands fa-searchengin"></i>
+        </a>
+        <a href="./cart.html" class="nav-link" id="cart-value">
+          <i class="fa-solid fa-cart-shopping">0 </i>
+        </a>
+      </div>
+  </nav>
+</section>
+<!-- ========== End bottom navbar Section ========== -->
+
+<!-- ========== Start top Section ========== -->
+<section class="sale">  
+<div class="top">
+        <h1>EVERY ITEM IS 25% OFF        </h1>
+        <p>USE CODE = GUPTAJI25 </p>
+        <h2>The sale has begun.</h2>
+    </div>
+</section>
+
+<section class="category" >
+<div class=" acc container grid grid-four--cols" >
+  <div class="men" id="booksCategory" >
+    <i class="fa-solid fa-book"></i>
+    <br>
+    BOOKS
+  </div>
+  <div class="men" id="womensCategory" >
+    <i class="fa-solid fa-person-dress"></i>
+    <br>
+    WOMEN
+  </div>
+  <div class="men" id="gadgetsCategory" >
+    <i class="fa-solid fa-laptop"></i>
+    <br>
+    gadgets
+  </div>
+  <div class="men" id="accCategory" >
+    <i class="fa-solid fa-person-biking"></i>
+    <br>
+    accessories
+  </div>
+</div>    
+</section>
+
+<section class="top-deals" >
+   <div class="top-h" >
+    <h1>TOP DEALS</h1>
+   </div>
+
+   <section class="container scrollable-container ">
+    <button class="scroll-btn left-scroll-btn" type="button" >⬅️</button>
+    <div id="topContainer"></div>
+    <button class="scroll-btn right-scroll-btn" type="button" >➡️</button>
+ </section>
+  </section>
+   <template id="top-D">
+     <div class="cards" id="card-value" >
+      <article class="information [card]" >
+        <span class="category-span" ></span>
+        <div class="image-container"  >
+          <img class="top-image" src="" alt="">
+          
+        </div>
+        <h2 class="product-name" ></h2>
+      </article>
+     </div>
+   </template>
+<!-- ========== End top Section ========== -->
+
+<!-- ========== Start mens Section ========== -->
+
+<section class="mens-section" >
+  <h1>MENS SECTION</h1>
+  <section class="container scrollable-container ">
+    <button class="scroll-btn left-scroll-bttn" type="button" >⬅️</button>
+    <div id="menContainer"></div>
+    <button class="scroll-btn right-scroll-bttn" type="button" >➡️</button>
+ </section>
+  <template id="men" >
+  <div  class="cards" id="menCardValue" >
+    <article class="information[card]" >
+      <span class="men-span" ></span>
+      <div class="image-container">
+        <img class="men-img" src="" alt="">
+      </div>
+      <h2 class="men-name" ></h2>
+      <div class="price-element">
+        <p class="men-price" ></p>
+        <p class="menActual-price" ></p>
+      </div>
+      <span class="hidden-text"  >
+      <p class="men-des"></p>
+      <div class="stockElement">
+        <p class="stockPropety" >Stock Available :-</p>
+        <p class="men-stock" ></p>
+      </div>
+      <div class="quantityElement">
+        <p class="men-quantiy" >Quantity{item}</p>
+        <div class="plusMinus">
+        <button class="cartIncrement">+</button>
+        <p class="mensQuantity" >1</p>
+        <button class="cartDecrement">-</button>
+        </div>
+      </div>
+    </span>
+    <button class="toggle-btn" >see more ⬇️</button>
+      <button class="add-to-cart-button">
+        <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+      </button>
+    </article>
+  </div>
+  </template>
+</section>
+<!-- ========== End mens Section ========== -->
+
+<!-- ========== Start trending women Section ========== -->
+<section class="trend-women" >
+  <h1 class="h1-w" >Trends for Women  </h1>
+  <div class="trendwContainer grid grid-two--cols "></div>
+
+ <template id="women" >
+  <div  class="wo-cards" id="womenCardValue" >
+    <article class="information[wocard]" >
+      <span class="women-span" ></span>
+      <div class="wo-image-container">
+        <img class="women-img" src="" alt="">
+      </div>
+      <h2 class="women-name" ></h2>
+      <div class="woprice-element">
+        <p class="women-price" ></p>
+        
+        <p class="womenActual-price" ></p>
+      </div>
+      <span class="hidden-text"  >
+      <p class="women-des"></p>
+      <div class="wostockElement">
+        <p class="wostockPropety" >Stock Available :-</p>
+        <p class="women-stock" ></p>
+      </div>
+      <div class="woquantityElement">
+        <p class="women-quantiy" >Quantity{item}</p>
+        <div class="woplusMinus">
+        <button class="wocartIncrement">+</button>
+        <p class="womensQuantity" >1</p>
+        <button class="wocartDecrement">-</button>
+        </div>
+      </div>
+    </span>
+    <button class="toggle-btn" >see more ⬇️</button>
+      <button class="add-to-cart-button">
+        <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+      </button>
+    </article>
+  </div>
+ 
+</template>
+</section>
+<!-- ========== End trending women Section ========== -->
+
+<!-- ========== Start gadgets Section ========== -->
+ <section class="gadgets" >
+<h1>Tech Haven</h1>
+<div class="gadContainer grid grid-two--cols"></div>
+  <template id="gad" >
+    <div  class="gad-cards" id="gadCardValue" >
+      <article class="information[card]" >
+        <span class="gad-span" ></span>
+        <div class="gadimage-container">
+          <img class="gad-img" src="" alt="">
+        </div>
+        <h2 class="gad-name" ></h2>
+        <div class="gadprice-element">
+          <p class="gad-price" ></p>
+          
+          <p class="gadActual-price" ></p>
+        </div>
+        <span class="hidden-text"  >
+        <p class="gad-des"></p>
+        <div class="gadstockElement">
+          <p class="gadstockPropety" >Stock Available :-</p>
+          <p class="gad-stock" ></p>
+        </div>
+        <div class="gadquantityElement">
+          <p class="gad-quantiy" >Quantity{item}</p>
+          <div class="gadplusMinus">
+          <button class="gadcartIncrement">+</button>
+          <p class="gadQuantity" >1</p>
+          <button class="gadcartDecrement">-</button>
+          </div>
+        </div>
+      </span>
+      <button class="toggle-btn" >see more ⬇️</button>
+        <button class="add-to-cart-button">
+          <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+        </button>
+      </article>
+    </div>
+  
+  </template>
+
+</section> 
+<!-- ========== End gadgets Section ========== -->
+
+<!-- ========== Start accessories Section ========== -->
+<section class="accessories" >
+  <h1>accessories</h1>
+  <div class="accContainer grid grid-two--cols"></div>
+    <template id="acc" >
+      <div  class="acc-cards" id="accCardValue" >
+        <article class="information[card]" >
+          <span class="acc-span" ></span>
+          <div class="accimage-container">
+            <img class="acc-img" src="" alt="">
+          </div>
+          <h2 class="acc-name" ></h2>
+          <div class="accprice-element">
+            <p class="acc-price" ></p>
+            
+            <p class="accActual-price" ></p>
+          </div>
+          <span class="hidden-text"  >
+          <p class="acc-des"></p>
+          <div class="accstockElement">
+            <p class="accstockPropety" >Stock Available :-</p>
+            <p class="acc-stock" ></p>
+          </div>
+          <div class="accquantityElement">
+            <p class="acc-quantiy" >Quantity{item}</p>
+            <div class="accplusMinus">
+            <button class="acccartIncrement">+</button>
+            <p class="accQuantity" >1</p>
+            <button class="acccartDecrement">-</button>
+            </div>
+          </div>
+        </span>
+        <button class="toggle-btn" >see more ⬇️</button>
+          <button class="add-to-cart-button">
+            <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+          </button>
+        </article>
+      </div>
+    
+    </template>
+  
+  </section> 
+<!-- ========== End accessories Section ========== -->
+
+<!-- ========== Start books Section ========== -->
+<section class="books" >
+  <h1 class="h1-w" >The Reading Room</h1>
+  <div class="bookContainer grid grid-two--cols"></div>
+    <template id="book" >
+      <div  class="book-cards" id="bookCardValue" >
+        <article class="information[card]" >
+          <span class="book-span" ></span>
+          <div class="bookimage-container">
+            <img class="book-img" src="" alt="">
+          </div>
+          <h2 class="book-name" ></h2>
+          <div class="bookprice-element">
+            <p class="book-price" ></p>
+            
+            <p class="bookActual-price" ></p>
+          </div>
+          <span class="hidden-text"  >
+          <p class="book-des"></p>
+          <div class="bookstockElement">
+            <p class="bookstockPropety" >Stock Available :-</p>
+            <p class="book-stock" ></p>
+          </div>
+          <div class="bookquantityElement">
+            <p class="book-quantiy" >Quantity{item}</p>
+            <div class="bookplusMinus">
+            <button class="bookcartIncrement">+</button>
+            <p class="bookQuantity" >1</p>
+            <button class="bookcartDecrement">-</button>
+            </div>
+          </div>
+        </span>
+        <button class="toggle-btn" >see more ⬇️</button>
+          <button class="add-to-cart-button">
+            <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+          </button>
+        </article>
+      </div>
+    
+    </template>
+  
+  </section> 
+<!-- ========== End books Section ========== -->
+
+<!-- ========== Start footer Section ========== -->
+<footer class="footer-section">
+  <div class="fancy-underline footerlisttitle"><h1 class="hp" >POPULAR SEARCHES</h1></div>
+  
+  <p class="ph" ><strong>Suits:</strong> Elite Attire, Dapper Drip, Sharp & Sleek, The Gentleman’s Choice, Suit Up Hub.</p>
+  <p class="ph" ><strong>Bikes:</strong> Velocity Wheels, RideXtreme, Turbo Trails, Rev & Ride, Moto Haven.</p>
+  <p class="ph" ><strong>Men's Underwear:</strong> Comfort Zone, InnerFit, Bold Basics, Ultimate Support, Core Essentials.</p>
+
+   <h1 class="hh" >COMPANY</h1>
+    <p class="pp" >About us <br> Privacy Policy <br> Terms & Condition <br> Payments & Returns <br> Printing Terms & Cancellation Policy </p>
+   
+   <h1 class="hh" >CONTACT US</h1>
+   <p class="pp" >About us <br> Privacy Policy <br> Terms & Condition <br> Payments & Returns <br> Printing Terms & Cancellation Policy </p>
+
+   <h1 class="hh" >COMPANY</h1>
+   <p class="pp" >About us <br> Privacy Policy <br> Terms & Condition <br> Payments & Returns <br> Printing Terms & Cancellation Policy </p>
+
+   <h1 class="hh" >COMPANY</h1>
+   <p class="pp" >About us <br> Privacy Policy <br> Terms & Condition <br> Payments & Returns <br> Printing Terms & Cancellation Policy </p>
+
+
+   <br>
+   <br>
+   <p>GUPTAJI IS THE DEVELOPER AND OWNER OF THIS WEBSITE.</p>
+</footer>
+
+<!-- ========== End footer Section ========== -->
+
+ <script type="module" src="./main.js" ></script>   
+</body>
+</html>

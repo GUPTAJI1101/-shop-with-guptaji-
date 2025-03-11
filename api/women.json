@@ -1,0 +1,122 @@
+[
+    {
+        "id":11,
+        "name": "FULL SIZE KURTI",
+        "category": "KURTI",
+        "brand": "ZUDIO",
+        "price": 199.25,
+        "stock": 664,
+        "description": "full size kurti in cotton",
+        "image":"./images/f 1.1.jpeg  "  
+    },
+    {
+        "id":12,
+        "name": "BLACK KURTI WITH CHUNNI",
+        "category": "KURTI",
+        "brand": "MANAVER",
+        "price": 99.65,
+        "stock": 164,
+        "description": "FULL SIZE BLACK KURTI AVAILABLE IN ALL SIZE",
+        "image": "./images/f 2.1.jpeg "
+    },
+    {
+        "id":13,
+        "name": "KHADAI KURTI",
+        "category": "KHADI KURTI",
+        "brand": "MANAVER",
+        "price": 556.52,
+        "stock": 56,
+        "description": "BLACK KURTI WITH KHADAI DESIGN ON IT",
+        "image": "./images/f 3.1.jpeg  "
+    },
+    {
+        "id":14,
+        "name": "traditional kurti",
+        "category": "tradional",
+        "brand": "L.V",
+        "price": 55.59,
+        "stock": 53653,
+        "description": "tradional kurti in purple color. NO RETURNS ALLOWED",
+        "image": "./images/f 4.1.jpeg "
+    },
+    {
+        "id":15,
+        "name": "lime color",
+        "category": "KURTI",
+        "brand": "canada",
+        "price": 629.46,
+        "stock": 45566,
+        "description": "tradional kurti in lime color. NO RETURNS ALLOWED",
+        "image": "./images/f 5.1.jpeg"
+    },
+    {
+        "id":16,
+        "name": "grey kurti",
+        "category": "KURTI",
+        "brand": "canada",
+        "price": 685.65,
+        "stock": 36406,
+        "description": "tradional kurti in grey color. NO RETURNS ALLOWED",
+        "image": "./images/f 6.1.jpeg  "
+    },
+    {
+        "id":17,
+        "name": "kurti",
+        "category": "morden kurti",
+        "brand": "candear",
+        "price": 683.57,
+        "stock": 536835,
+        "description": "tradional kurti in purple color. NO RETURNS ALLOWED",
+        "image": "./images/f 7.1.jpeg  "
+    },
+    {
+        "id":18,
+        "name": "kurti",
+        "category": "kurti",
+        "brand": "zudio",
+        "price": 550.25,
+        "stock": 3385,
+        "description": "tradional kurti in pink color. NO RETURNS ALLOWED",
+        "image": "./images/f 8.1.jpeg "
+    },
+    {
+        "id":19,
+        "name": "kurti",
+        "category": "kurti",
+        "brand": "zudio",
+        "price": 550.25,
+        "stock": 3385,
+        "description": "tradional kurti in purple color. NO RETURNS ALLOWED",
+        "image": "./images/f 9.1.jpeg "
+    },
+    {
+        "id":20,
+        "name": "kurtis",
+        "category": "kurti",
+        "brand": "zudio",
+        "price": 2050.25,
+        "stock": 3385,
+        "description": "tradional kurti. pack of four. NO RETURNS ALLOWED",
+        "image": "./images/f 10.1.jpeg "
+    },
+    {
+        "id":21,
+        "name": "kurti",
+        "category": "kurti",
+        "brand": "zudio",
+        "price": 1050.25,
+        "stock": 4688,
+        "description": "tradional kurtis. pack of two.  NO RETURNS ALLOWED",
+        "image": "./images/f 11.1.jpeg "
+    },
+     {
+        "id":22,
+        "name": "kurti",
+        "category": "kurti",
+        "brand": "LV",
+        "price": 1052.56,
+        "stock": 5425,
+        "description": "tradional kurti. pack of two. NO RETURNS ALLOWED",
+        "image": "./images/f 12.1.jpeg "
+    }
+]

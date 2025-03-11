@@ -1,0 +1,627 @@
+[
+    {
+        "id":60,
+        "name": "JOCKEY",
+        "category": "underwear",
+        "brand": "JOCKEY",
+        "price": 99.25,
+        "stock": 864,
+        "description": "original jockey underwear. NO RETURNS ALLOWED",
+        "image": "./images/m 1.1.jpeg"
+    },
+    {
+        "id":61,
+        "name": "MOCKEY",
+        "category": "underwear",
+        "brand": "MOCKEY",
+        "price": 79.65,
+        "stock": 1864,
+        "description": "original mockey underwear. NO RETURNS ALLOWED",
+        "image": "./images/m 1.jpeg"
+    },
+    {
+        "id":62,
+        "name": "LEVIS",
+        "category": "underwear",
+        "brand": "LEVIS",
+        "price": 86.52,
+        "stock": 5756,
+        "description": "original LEVIS underwear. NO RETURNS ALLOWED",
+        "image": "./images/m 2.1.jpeg"
+    },
+    {
+        "id":63,
+        "name": "MEVIS",
+        "category": "underwear",
+        "brand": "MEVIS",
+        "price": 65.59,
+        "stock": 6653,
+        "description": "original MEVIS underwear. NO RETURNS ALLOWED",
+        "image": "./images/m 2.jpeg"
+    },
+    {
+        "id":64,
+        "name": "X",
+        "category": "underwear",
+        "brand": "XRO",
+        "price": 29.46,
+        "stock": 466,
+        "description": "original X underwear. NO RETURNS ALLOWED",
+        "image": "./images/m 3.1.jpeg"
+    },
+    {
+        "id":65,
+        "name": "Y",
+        "category": "underwear",
+        "brand": "YRO",
+        "price": 25.65,
+        "stock": 3606,
+        "description": "original Y underwear. NO RETURNS ALLOWED",
+        "image": "./images/m 3.jpeg"
+    },
+    {
+        "id":66,
+        "name": "sando",
+        "category": "sando",
+        "brand": "rupa",
+        "price": 63.57,
+        "stock": 5335,
+        "description": "original rupa sando. NO RETURNS ALLOWED",
+        "image": "./images/m 4.1.jpeg"
+    },
+    {
+        "id":67,
+        "name": "sando",
+        "category": "sando",
+        "brand": "rupa",
+        "price": 150.25,
+        "stock": 335,
+        "description": "pack of two. original rupa sando. NO RETURNS ALLOWED",
+        "image": "./images/m 4.jpeg"
+    },
+    {
+        "id":68,
+        "name": "sando",
+        "category": "sando",
+        "brand": "rupa",
+        "price": 149.25,
+        "stock": 253,
+        "description": "pack of two. original rupa sando. NO RETURNS ALLOWED",
+        "image": "./images/m 5.1.jpeg"
+    },
+    {
+        "id":69,
+        "name": "sando",
+        "category": "sando",
+        "brand": "rupa",
+        "price": 139.85,
+        "stock": 253,
+        "description": "pack of two. original rupa sando. NO RETURNS ALLOWED",
+        "image": "./images/m 5.jpeg"
+    },
+    {
+        "id":70,
+        "name": "FULL SIZE KURTI",
+        "category": "KURTI",
+        "brand": "ZUDIO",
+        "price": 199.25,
+        "stock": 664,
+        "description": "full size kurti in cotton",
+        "image":"./images/f 1.1.jpeg  "  
+    },
+    {
+        "id":71,
+        "name": "BLACK KURTI WITH CHUNNI",
+        "category": "KURTI",
+        "brand": "MANAVER",
+        "price": 99.65,
+        "stock": 164,
+        "description": "FULL SIZE BLACK KURTI AVAILABLE IN ALL SIZE",
+        "image": "./images/f 2.1.jpeg "
+    },
+    {
+        "id":72,
+        "name": "KHADAI KURTI",
+        "category": "KHADI KURTI",
+        "brand": "MANAVER",
+        "price": 556.52,
+        "stock": 56,
+        "description": "BLACK KURTI WITH KHADAI DESIGN ON IT",
+        "image": "./images/f 3.1.jpeg  "
+    },
+    {
+        "id":73,
+        "name": "traditional kurti",
+        "category": "tradional",
+        "brand": "L.V",
+        "price": 55.59,
+        "stock": 53653,
+        "description": "tradional kurti in purple color. NO RETURNS ALLOWED",
+        "image": "./images/f 4.1.jpeg "
+    },
+    {
+        "id":74,
+        "name": "lime color",
+        "category": "KURTI",
+        "brand": "canada",
+        "price": 629.46,
+        "stock": 45566,
+        "description": "tradional kurti in lime color. NO RETURNS ALLOWED",
+        "image": "./images/f 5.1.jpeg"
+    },
+    {
+        "id":75,
+        "name": "grey kurti",
+        "category": "KURTI",
+        "brand": "canada",
+        "price": 685.65,
+        "stock": 36406,
+        "description": "tradional kurti in grey color. NO RETURNS ALLOWED",
+        "image": "./images/f 6.1.jpeg  "
+    },
+    {
+        "id":76,
+        "name": "kurti",
+        "category": "morden kurti",
+        "brand": "candear",
+        "price": 683.57,
+        "stock": 536835,
+        "description": "tradional kurti in purple color. NO RETURNS ALLOWED",
+        "image": "./images/f 7.1.jpeg  "
+    },
+    {
+        "id":77,
+        "name": "kurti",
+        "category": "kurti",
+        "brand": "zudio",
+        "price": 550.25,
+        "stock": 3385,
+        "description": "tradional kurti in pink color. NO RETURNS ALLOWED",
+        "image": "./images/f 8.1.jpeg "
+    },
+    {
+        "id":78,
+        "name": "kurti",
+        "category": "kurti",
+        "brand": "zudio",
+        "price": 550.25,
+        "stock": 3385,
+        "description": "tradional kurti in purple color. NO RETURNS ALLOWED",
+        "image": "./images/f 9.1.jpeg "
+    },
+    {
+        "id":79,
+        "name": "kurtis",
+        "category": "kurti",
+        "brand": "zudio",
+        "price": 2050.25,
+        "stock": 3385,
+        "description": "tradional kurti. pack of four. NO RETURNS ALLOWED",
+        "image": "./images/f 10.1.jpeg "
+    },
+    {
+        "id":80,
+        "name": "kurti",
+        "category": "kurti",
+        "brand": "zudio",
+        "price": 1050.25,
+        "stock": 4688,
+        "description": "tradional kurtis. pack of two.  NO RETURNS ALLOWED",
+        "image": "./images/f 11.1.jpeg "
+    },
+     {
+        "id":81,
+        "name": "kurti",
+        "category": "kurti",
+        "brand": "LV",
+        "price": 1052.56,
+        "stock": 5425,
+        "description": "tradional kurti. pack of two. NO RETURNS ALLOWED",
+        "image": "./images/f 12.1.jpeg "
+    },
+    {
+        "id":82,
+        "name": "riding jacket",
+        "category": "jacket",
+        "brand": "sttelbird",
+        "price": 1995.25,
+        "stock": 664,
+        "description": "riding jacket with full gears and protection",
+        "image":"./images/a 1.jpeg"
+       
+    },
+    {
+        "id":83,
+        "name": "bike go pro",
+        "category": "camera",
+        "brand": "go-pro",
+        "price": 959.65,
+        "stock": 1684,
+        "description": "this is go pro camera used in bike for shotting bike travel ",
+        "image": "./images/a 2.jpeg"
+    },
+    {
+        "id":84,
+        "name": "splender",
+        "category": "bike",
+        "brand": "hero",
+        "price": 95246.52,
+        "stock": 56,
+        "description": "BLACK splendor brand new order online ",
+        "image": " ./images/a 3.jpeg"
+    },
+    {
+        "id":85,
+        "name": "hunter",
+        "category": "bike",
+        "brand": "royal enfield",
+        "price": 254655.59,
+        "stock": 53,
+        "description": "tradional royal enfield hunter. brand new.",
+        "image":  "./images/a 4.jpeg"
+    },
+    {
+        "id":86,
+        "name": "java",
+        "category": "bike",
+        "brand": "java",
+        "price": 265629.46,
+        "stock": 46,
+        "description": "tradional java bullet with powerful engine, order online",
+        "image": "./images/a 5.jpeg"
+    },
+    {
+        "id":87,
+        "name": "modefied hunter",
+        "category": "bike",
+        "brand": "royal enfield",
+        "price": 276685.65,
+        "stock": 36,
+        "description": "modiefied hunter from royal enfield. brand new",
+        "image": "./images/a 6.jpeg"
+    },
+    {
+        "id":88,
+        "name": "single seater",
+        "category": "bike",
+        "brand": "java",
+        "price": 35683.57,
+        "stock": 35,
+        "description": "tradional java single seater with powerful engine, order online",
+        "image": "./images/a 7.jpeg"
+    },
+    {
+        "id":89,
+        "name": "classic",
+        "category": "bike",
+        "brand": "royal enfield",
+        "price": 254550.25,
+        "stock": 35,
+        "description":"tradional royal enfield hunter. brand new.",
+        "image": "./images/a 8.jpeg" 
+    },
+    {
+        "id":90,
+        "name": "modiefied classic",
+        "category": "bike",
+        "brand": "royal enfield",
+        "price": 265450.25,
+        "stock": 38,
+        "description": "modiefied classic from royal enfield. brand new",
+        "image": "./images/a 9.jpeg"
+    },
+    {
+        "id":91,
+        "name": "SRIMAD BHAGAVATAM",
+        "category": "book",
+        "brand": "ISKRON",
+        "price": 100.25,
+        "stock": 4688,
+        "description": "srimad bhagavatam geeta written valmikiji, and print by iskron",
+        "image":"./images/b 1.jpeg"
+    },  
+     {
+        "id":92,
+        "name": "KRISHAN BHAGWATAM",
+        "category": "book",
+        "brand": "ISKRON",
+        "price": 70.25,
+        "stock": 688,
+        "description": "krisham bhagwatam written valmikiji, and print by iskron",
+        "image":"./images/b 2.jpeg"
+    },
+    {
+        "id":93,
+        "name": "KRSNA CONSCIOUSNESS",
+        "category": "book",
+        "brand": "ISKRON",
+        "price": 121.25,
+        "stock": 488,
+        "description": "krsna consciousness  print by iskron",
+        "image":"./images/b 3.jpeg"
+    },
+    {
+        "id":94,
+        "name": "THE NECTOR OF INSTRUCTION",
+        "category": "book",
+        "brand": "ISKRON",
+        "price": 50.25,
+        "stock": 688,
+        "description": "THE NECTOR OF INSTRUCTION print by iskron",
+        "image":"./images/b 4.jpeg"
+    },
+    {
+        "id":95,
+        "name": "MAHABHARATA",
+        "category": "book",
+        "brand": "ISKRON",
+        "price": 50.25,
+        "stock": 688,
+        "description": "MAHABHARATA with true incidents , print by iskron",
+        "image":"./images/b 5.jpeg"
+    },
+    {
+        "id":96,
+        "name": "IDEAPAD",
+        "category": "laptop",
+        "brand": "lenovo",
+        "price": 45597.25,
+        "stock": 4688,
+        "description": "the new ideapad lanuch by lenovo, with ryzen proccesor with 3 years warranty",
+        "image":"./images/gl 1.jpeg"
+    },  
+     {
+        "id":97,
+        "name": "GTB00K",
+        "category": "laptop",
+        "brand": "INFINIX",
+        "price": 55470.25,
+        "stock": 688,
+        "description":  "the new GTB00K lanuch by infinix, with ryzen proccesor with 3 years warranty",
+        "image":"./images/gl 2.jpeg"
+    },
+    {
+        "id":98,
+        "name": "GTB00K1",
+        "category": "laptop",
+        "brand": "INFINIX",
+        "price": 56121.25,
+        "stock": 488,
+        "description": "the new GTB00K1 lanuch by infinix, with ryzen proccesor with 3 years warranty",
+        "image":"./images/gl 3.jpeg"
+    },
+    {
+        "id":99,
+        "name": "lenovo",
+        "category": "laptop",
+        "brand": "lenovo",
+        "price": 53550.25,
+        "stock": 688,
+        "description":  " lenovo, with ryzen proccesor with 3 years warranty",
+        "image":"./images/gl 4.jpeg"
+    },
+    {
+        "id":100,
+        "name": "PREDATOR",
+        "category": "laptop",
+        "brand": "ASUS",
+        "price": 78450.25,
+        "stock": 6885,
+        "description": "PREDATOR laptop lauch by ASUS with 3 years warranty",
+        "image":"./images/gl 5.jpeg"
+    },
+    {
+        "id":101,
+        "name": "IPHONE 13",
+        "category": "mobile",
+        "brand": "APPLE",
+        "price": 48450.25,
+        "stock": 68885,
+        "description": "I-phone 13 with 1 year warranty",
+        "image":"./images/gm 1.jpeg"
+    },
+    {
+        "id":102,
+        "name": "IPHONE 15",
+        "category": "mobile",
+        "brand": "APPLE",
+        "price": 68450.25,
+        "stock": 685,
+        "description": "I-phone 15 with 1 year warranty",
+        "image":"./images/gm 2.jpeg"
+    },
+    {
+        "id":103,
+        "name": "IPHONE 16",
+        "category": "mobile",
+        "brand": "APPLE",
+        "price": 108450.25,
+        "stock": 4965,
+        "description": "I-phone 16 with 1 year warranty",
+        "image":"./images/gm 3.jpeg"
+    },
+    {
+        "id":104,
+        "name": "IPHONE 15 pro",
+        "category": "mobile",
+        "brand": "APPLE",
+        "price": 78450.25,
+        "stock": 4965,
+        "description": "I-phone 15 pro with 1 year warranty",
+        "image":"./images/gm 4.jpeg"
+    },
+    {
+        "id":105,
+        "name": "IPHONE 16 pro",
+        "category": "mobile",
+        "brand": "APPLE",
+        "price": 128450.25,
+        "stock": 4965,
+        "description": "I-phone 16 pro with 1 year warranty",
+        "image":"./images/gm 5.jpeg" 
+    },
+    {
+        "id":106,
+        "name": "FULL SIZE KURTI",
+        "category": "KURTI",
+        "brand": "ZUDIO",
+        "price": 199.25,
+        "stock": 664,
+        "description": "full size kurti in cotton",
+        "image":"./images/f 1.1.jpeg  " ,
+        "image1": " ./images/f 1.2.jpeg ",
+        "image2": " ./images/f 1.3.jpeg ",
+          "image3":"  ./images/f 1.jpeg"
+    },
+    {
+        "id":107,
+        "name": "BLACK KURTI WITH CHUNNI",
+        "category": "KURTI",
+        "brand": "MANAVER",
+        "price": 99.65,
+        "stock": 164,
+        "description": "FULL SIZE BLACK KURTI AVAILABLE IN ALL SIZE",
+        "image": "./images/f 2.1.jpeg ",   
+          "image1": "./images/f 2.2.jpeg  ",
+        "image2": "./images/f 2.3.jpeg ",
+          "image3":"./images/f 2.jpeg"
+    },
+    {
+        "id":108,
+        "name": "KHADAI KURTI",
+        "category": "KHADI KURTI",
+        "brand": "MANAVER",
+        "price": 556.52,
+        "stock": 56,
+        "description": "BLACK KURTI WITH KHADAI DESIGN ON IT",
+        "image": "./images/f 3.1.jpeg ",
+        "image1": " ./images/f 3.2.jpeg ",
+        "image2": "./images/f 3.3.jpeg",
+          "image3":"   ./images/f 3.jpeg"
+      
+    },
+    {
+        "id":109,
+        "name": "KHADAI KURTI",
+        "category": "KHADI KURTI",
+        "brand": "MANAVER",
+        "price": 556.52,
+        "stock": 56,
+        "description": "BLACK KURTI WITH KHADAI DESIGN ON IT",
+        "image": " ./images/f 4.2.jpeg ",
+        "image1": "./images/f 3.1.jpeg   ",
+        "image2": " ./images/f 4.3.jpeg ",
+          "image3":"  ./images/f 4.jpeg"
+    },
+    {
+        "id":110,
+        "name": "traditional kurti",
+        "category": "tradional",
+        "brand": "L.V",
+        "price": 55.59,
+        "stock": 53653,
+        "description": "tradional kurti in purple color. NO RETURNS ALLOWED",
+        "image": "./images/f 4.1.jpeg ",
+        "image1": "  ./images/f 5.2.jpeg ",
+        "image2": "./images/f 5.3.jpeg ",
+          "image3":"   ./images/f 5.jpeg"  
+    },
+    {
+        "id":111,
+        "name": "kurti",
+        "category": "kurti",
+        "brand": "zudio",
+        "price": 550.25,
+        "stock": 3385,
+        "description": "tradional kurti in pink color. NO RETURNS ALLOWED",
+        "image": "./images/f 8.1.jpeg ",
+        "image1": " ./images/f 6.2.jpeg ",
+        "image2": "./images/f 6.3.jpeg",
+          "image3":"   ./images/f 6.jpeg" 
+    },
+    {
+        "id":112,
+        "name": "kurtis",
+        "category": "kurti",
+        "brand": "zudio",
+        "price": 2050.25,
+        "stock": 3385,
+        "description": "tradional kurti. pack of four. NO RETURNS ALLOWED",
+        "image": "./images/f 10.1.jpeg ",
+        "image1": " ./images/f 7.2.jpeg  ",
+        "image2": "./images/f 7.3.jpeg ",
+          "image3":"./images/f 7.jpeg" 
+
+    },
+    {
+        "id":113,
+        "name": "kurti",
+        "category": "kurti",
+        "brand": "LV",
+        "price": 1052.56,
+        "stock": 5425,
+        "description": "tradional kurti. pack of two. NO RETURNS ALLOWED",
+        "image": "./images/f 12.1.jpeg ",
+        "image1": " ./images/f 8.2.jpeg  ",
+        "image2": "./images/f 8.3.jpeg ",
+          "image3":" ./images/f 8.jpeg" 
+
+    },
+    {
+        "id":114,
+        "name": "kurti",
+        "category": "kurti",
+        "brand": "zudio",
+        "price": 550.25,
+        "stock": 3385,
+        "description": "tradional kurti in purple color. NO RETURNS ALLOWED",
+        "image": "./images/f 9.1.jpeg ",
+        "image1": " ./images/f 9.2.jpeg  ",
+        "image2": "./images/f 9.3.jpeg ",
+          "image3":" ./images/f 9.jpeg" 
+        
+    },
+    {
+        "id":115,
+        "name": "kurtis",
+        "category": "kurti",
+        "brand": "zudio",
+        "price": 2050.25,
+        "stock": 3385,
+        "description": "tradional kurti. pack of four. NO RETURNS ALLOWED",
+        "image": "./images/f 10.1.jpeg ",
+        "image1": " ./images/f 10.2.jpeg  ",
+        "image2": "./images/f 10.3.jpeg ",
+          "image3":"  ./images/f 10.jpeg" 
+    
+    },
+    {
+        "id":116,
+        "name": "kurti",
+        "category": "kurti",
+        "brand": "zudio",
+        "price": 1050.25,
+        "stock": 4688,
+        "description": "tradional kurtis. pack of two.  NO RETURNS ALLOWED",
+        "image": "./images/f 11.1.jpeg ",
+        "image1": "  ./images/f 11.2.jpeg  ",
+        "image2": "./images/f 11.3.jpeg ",
+          "image3":"  ./images/f 11.jpeg" 
+        
+    },
+     {
+        "id":117,
+        "name": "kurti",
+        "category": "kurti",
+        "brand": "LV",
+        "price": 1052.56,
+        "stock": 5425,
+        "description": "tradional kurti. pack of two. NO RETURNS ALLOWED",
+        "image": "./images/f 12.1.jpeg ",
+        "image1": "  ./images/f 12.2.jpeg  ",
+        "image2": "./images/f 12.3.jpeg ",
+          "image3":"  ./images/f 12.jpeg" 
+      
+    }   
+    
+]
